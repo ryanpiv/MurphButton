@@ -29,3 +29,9 @@ a {
   box-shadow: 0 18px 0 4px #C4C9CD, inset 0 5px 15px rgba(0,0,0,0.4);
   line-height: 2.7em;
 }
+.container{
+  width:100%;
+  margin:0 auto;
+  padding-top:1%;
+  text-align: center;
+}

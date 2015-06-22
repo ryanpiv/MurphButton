@@ -3,10 +3,18 @@
   <link type="text/css" rel="stylesheet" href="css.css" />
 </head>
 <body>
-<a href="#" id="murph" onclick="murphSound('murph.mp3')" class="easy-button">murph</a>
+  <div class="container">
+    <div class="box">
+      <input id="dramabutton" type="checkbox">Add Drama</input>
+    </div>
+    <a href="#" id="murph" onclick="murphSound('murph.mp3')" class="easy-button">murph</a>
+  </div>
 </body>
 <script>
 function murphSound(soundFile){
+  if(document.getElementById("dramabutton").checked){
+    soundFile = 'murphdrama.mp3';
+  }
   document.getElementById("murph").innerHTML=
  "<embed src=\""+soundFile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />murph";
 }
