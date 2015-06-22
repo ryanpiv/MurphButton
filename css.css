@@ -1,0 +1,31 @@
+html {
+  background: #55da55;
+  font-family: Helevetica, sans-serif;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+}
+.easy-button{
+  background: #D83E2E;
+  border: 10px solid #B0B9BB;
+  border-radius: 4em;
+  box-shadow: 0 18px 0 4px #C4C9CD;
+  color: #EFEFF5;
+  display: block;
+  font-size: 6em;
+  font-weight: 600;
+  height: 3.25em;
+  line-height: 2.65em;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0 2px 0 rgba(0,0,0,0.25);
+  top: 0; right: 0; bottom: 0; left: 0;
+  transition: all 0.1s;
+  width: 3.25em;
+}
+.easy-button:active{
+  box-shadow: 0 18px 0 4px #C4C9CD, inset 0 5px 15px rgba(0,0,0,0.4);
+  line-height: 2.7em;
+}
